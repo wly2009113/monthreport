@@ -80,7 +80,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'load',
+        'NAME': 'month_report',
         'USER': 'root',
         'PASSWORD': 'CDBfutu@2016$',
         'HOST': '172.24.31.154',
