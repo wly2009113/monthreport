@@ -1,0 +1,56 @@
+
+刷新http://172.24.31.30:8010/qloudfee/，之后返回Refresh Success!提示，即说明数据库中数据更新成功
+
+数据库位置：
+host: 172.24.31.154 
+port: 13357
+user: root
+passwd: CDBfutu@2016$
+database: month_report
+table: fee_monthfee
+
+数据库中列字段含义：
+  month : "月份"
+  sumfee : "本月腾讯云总费用"
+  ES : "Elasticsearch Service"
+  OCR : "OCR文字识别"
+  GWIP : "弹性公网IP"
+  VOD : "点播VOD"
+  COS : "COS 对象存储"
+  DCDB : "分布式数据库DCDB"
+  CLB : "负载均衡CLB"
+  DKB : "共享带宽包"
+  CRC : "跨地域互联CRC"
+  CDN : "内容分发网络CDN"
+  VDO : "实时音视频"
+  CI : "数据万象CI"
+  TY : "天御"
+  TXSB : "图像识别"
+  CFS : "文件存储CFS"
+  CKafka : "消息服务CKafka"
+  YDJFJDCY : "月度计费精度差异"
+  CVM : "云服务器CVM"
+  MariaDB : "云数据库MariaDB（TDSQL）"
+  MySQL : "云数据库MySQL"
+  PostgreSQL : "云数据库PostgreSQL"
+  Redis : "云数据库Redis"
+  IM : "云通信IM"
+  CBS : "云硬盘CBS"
+  Snapshot : "云硬盘快照Snapshot"
+  ZB : "直播"
+  ZXJR : "专线接入"
+  YMZC : "域名注册"
+  SSL : "SSL证书"
+  SMS : "短信SMS"
+  CDM : "云数据迁移CDM"
+  VPN : "VPN网关"
+  YJX : "云解析"
+  MapReduce : "弹性MapReduce"
+  TBDSSOFT : "TBDS大数据平台软件"
+  TBDSSVC : "TBDS大数据支持服务"
+  TCEYJ : "TCE硬件"
+  TCERJ : "TCE软件"
+  TCEFW : "TCE服务"
+  SMRZ : "实名认证"
+  WEB : "web漏洞扫描"
+
