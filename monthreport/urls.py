@@ -15,10 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from load import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #新增一个url，访问load app下的views.py 的load_page 方法
     path('load/',views.load_page)
+=======
+import fee.views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('qloudfee/',fee.views.refresh),
+>>>>>>> a633854a721c6ac8da141969ab5ef0ef715281c4
 ]
